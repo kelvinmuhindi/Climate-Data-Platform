@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html class="js-disabled" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport"/>
+  <title>
+   Data Catalog - Our World in Data
+  </title>
+  <meta content="Explore Our World in Data's extensive collection of charts. Use the search bar to find specific data visualizations or browse by topic. Filter by country or subject area to discover insights on global issues supported by reliable data." name="description"/>
+  <link href="https://ourworldindata.org/data" rel="canonical"/>
+  <link href="/atom.xml" rel="alternate" title="Atom feed for Our World in Data" type="application/atom+xml"/>
+  <link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link as="font" crossorigin="anonymous" href="/fonts/LatoLatin-Regular.woff2" rel="preload" type="font/woff2"/>
+  <meta content="1149943818390250" property="fb:app_id"/>
+  <meta content="https://ourworldindata.org/data" property="og:url"/>
+  <meta content="Data Catalog" property="og:title"/>
+  <meta content="Explore Our World in Data's extensive collection of charts. Use the search bar to find specific data visualizations or browse by topic. Filter by country or subject area to discover insights on global issues supported by reliable data." property="og:description"/>
+  <meta content="images/data-catalog-thumbnail.png" property="og:image"/>
+  <meta content="Our World in Data" property="og:site_name"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@OurWorldInData" name="twitter:site"/>
+  <meta content="@OurWorldInData" name="twitter:creator"/>
+  <meta content="Data Catalog" name="twitter:title"/>
+  <meta content="Explore Our World in Data's extensive collection of charts. Use the search bar to find specific data visualizations or browse by topic. Filter by country or subject area to discover insights on global issues supported by reliable data." name="twitter:description"/>
+  <meta content="https://ourworldindata.org/data-catalog-thumbnail.png" name="twitter:image"/>
+  <link href="/assets/owid.mjs" rel="modulepreload"/>
+  <link as="script" data-cloudflare-disable-early-hints="true" href="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&amp;features=es2021,es2022,es2023,IntersectionObserver,IntersectionObserverEntry" rel="preload"/>
+  <link as="style" href="css/owid.css" rel="preload"/>
+  <link href="css/owid.css" rel="stylesheet"/>
+  <script>
+   window._OWID_TAG_GRAPH = {"id":1837,"name":"tag-graph-root","slug":null,"isTopic":false,"path":[1837],"weight":0,"children":[{"id":1500,"path":[1837,1500],"name":"Population and Demographic Change","slug":null,"isTopic":0,"weight":106,"children":[{"id":1841,"path":[1837,1500,1841],"name":"Population Change","slug":null,"isTopic":0,"weight":108,"children":[{"id":1,"path":[1837,1500,1841,1],"name":"Population Growth","slug":"population-growth","isTopic":1,"weight":107,"children":[]},{"id":4,"path":[1837,1500,1841,4],"name":"Age Structure","slug":"age-structure","isTopic":1,"weight":106,"children":[]},{"id":8,"path":[1837,1500,1841,8],"name":"Gender Ratio","slug":"gender-ratio","isTopic":1,"weight":105,"children":[]}]},{"id":1842,"path":[1837,1500,1842],"name":"Births & Deaths","slug":null,"isTopic":0,"weight":105,"children":[{"id":7,"path":[1837,1500,1842,7],"name":"Life Expectancy","slug":"life-expectancy","isTopic":1,"weight":104,"children":[]},{"id":3,"path":[1837,1500,1842,3],"name":"Fertility Rate","slug":"fertility-rate","isTopic":1,"weight":103,"children":[]},{"id":5,"path":[1837,1500,1842,5],"name":"Child & Infant Mortality","slug":"child-mortality","isTopic":1,"weight":102,"children":[]}]},{"id":1843,"path":[1837,1500,1843],"name":"Geography of the World Population","slug":null,"isTopic":0,"weight":103,"children":[{"id":175,"path":[1837,1500,1843,175],"name":"Urbanization","slug":"urbanization","isTopic":1,"weight":102,"children":[]},{"id":2,"path":[1837,1500,1843,2],"name":"Future Population Growth","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":233,"path":[1837,1500,1843,233],"name":"Migration","slug":"migration","isTopic":1,"weight":100,"children":[]}]},{"id":232,"path":[1837,1500,232],"name":"Remittances","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1501,"path":[1837,1501],"name":"Health","slug":null,"isTopic":0,"weight":105,"children":[{"id":1839,"path":[1837,1501,1839],"name":"Life & Death","slug":null,"isTopic":0,"weight":133,"children":[{"id":1815,"path":[1837,1501,1839,1815],"name":"Global Health","slug":"health-meta","isTopic":1,"weight":132,"children":[]},{"id":24,"path":[1837,1501,1839,24],"name":"Causes of Death","slug":"causes-of-death","isTopic":1,"weight":131,"children":[]},{"id":5,"path":[1837,1501,1839,5],"name":"Child & Infant Mortality","slug":"child-mortality","isTopic":1,"weight":130,"children":[]},{"id":25,"path":[1837,1501,1839,25],"name":"Burden of Disease","slug":"burden-of-disease","isTopic":1,"weight":129,"children":[]},{"id":7,"path":[1837,1501,1839,7],"name":"Life Expectancy","slug":"life-expectancy","isTopic":1,"weight":128,"children":[]},{"id":35,"path":[1837,1501,1839,35],"name":"Mental Health","slug":"mental-health","isTopic":1,"weight":127,"children":[]},{"id":17,"path":[1837,1501,1839,17],"name":"Suicides","slug":"suicide","isTopic":1,"weight":126,"children":[]},{"id":28,"path":[1837,1501,1839,28],"name":"Cardiovascular Diseases","slug":"cardiovascular-diseases","isTopic":1,"weight":125,"children":[]},{"id":19,"path":[1837,1501,1839,19],"name":"Cancer","slug":"cancer","isTopic":1,"weight":124,"children":[]},{"id":15,"path":[1837,1501,1839,15],"name":"Maternal Mortality","slug":"maternal-mortality","isTopic":1,"weight":123,"children":[]}]},{"id":1838,"path":[1837,1501,1838],"name":"Health Risks","slug":null,"isTopic":0,"weight":123,"children":[{"id":106,"path":[1837,1501,1838,106],"name":"Air Pollution","slug":"air-pollution","isTopic":1,"weight":122,"children":[{"id":1819,"path":[1837,1501,1838,106,1819],"name":"Outdoor Air Pollution","slug":"outdoor-air-pollution","isTopic":1,"weight":100,"children":[]},{"id":89,"path":[1837,1501,1838,106,89],"name":"Indoor Air Pollution","slug":"indoor-air-pollution","isTopic":1,"weight":99,"children":[]}]},{"id":1797,"path":[1837,1501,1838,1797],"name":"Lead Pollution","slug":"lead-pollution","isTopic":1,"weight":121,"children":[]},{"id":1572,"path":[1837,1501,1838,1572],"name":"Alcohol Consumption","slug":"alcohol-consumption","isTopic":1,"weight":120,"children":[]},{"id":1825,"path":[1837,1501,1838,1825],"name":"Illicit Drug Use","slug":"illicit-drug-use","isTopic":1,"weight":119,"children":[]},{"id":62,"path":[1837,1501,1838,62],"name":"Obesity","slug":"obesity","isTopic":1,"weight":118,"children":[]},{"id":16,"path":[1837,1501,1838,16],"name":"Smoking","slug":"smoking","isTopic":1,"weight":117,"children":[]}]},{"id":1556,"path":[1837,1501,1556],"name":"Infectious Diseases","slug":null,"isTopic":0,"weight":116,"children":[{"id":1807,"path":[1837,1501,1556,1807],"name":"Pandemics","slug":"pandemics","isTopic":1,"weight":116,"children":[]},{"id":1793,"path":[1837,1501,1556,1793],"name":"COVID-19","slug":"coronavirus","isTopic":1,"weight":115,"children":[]},{"id":14,"path":[1837,1501,1556,14],"name":"Malaria","slug":"malaria","isTopic":1,"weight":114,"children":[]},{"id":13,"path":[1837,1501,1556,13],"name":"HIV/AIDS","slug":"hiv-aids","isTopic":1,"weight":113,"children":[]},{"id":1560,"path":[1837,1501,1556,1560],"name":"Diarrheal Diseases","slug":"diarrheal-diseases","isTopic":1,"weight":112,"children":[]},{"id":30,"path":[1837,1501,1556,30],"name":"Tuberculosis","slug":"tuberculosis","isTopic":1,"weight":111,"children":[]},{"id":1563,"path":[1837,1501,1556,1563],"name":"Polio","slug":"polio","isTopic":1,"weight":110,"children":[]},{"id":26,"path":[1837,1501,1556,26],"name":"Neglected Tropical Diseases","slug":"neglected-tropical-diseases","isTopic":1,"weight":109,"children":[]},{"id":1804,"path":[1837,1501,1556,1804],"name":"Influenza","slug":"influenza","isTopic":1,"weight":108,"children":[]},{"id":1821,"path":[1837,1501,1556,1821],"name":"Pneumonia","slug":"pneumonia","isTopic":1,"weight":107,"children":[]},{"id":1639,"path":[1837,1501,1556,1639],"name":"Tetanus","slug":"tetanus","isTopic":1,"weight":106,"children":[]},{"id":1818,"path":[1837,1501,1556,1818],"name":"Mpox (monkeypox)","slug":"mpox","isTopic":1,"weight":105,"children":[]},{"id":1557,"path":[1837,1501,1556,1557],"name":"Smallpox","slug":"smallpox","isTopic":1,"weight":104,"children":[]}]},{"id":1840,"path":[1837,1501,1840],"name":"Health Institutions & Interventions","slug":null,"isTopic":0,"weight":115,"children":[{"id":11,"path":[1837,1501,1840,11],"name":"Eradication of Diseases","slug":"eradication-of-diseases","isTopic":1,"weight":104,"children":[]},{"id":18,"path":[1837,1501,1840,18],"name":"Vaccination","slug":"vaccination","isTopic":1,"weight":103,"children":[]},{"id":32,"path":[1837,1501,1840,32],"name":"Antibiotics & Antibiotic Resistance","slug":"antibiotics","isTopic":1,"weight":102,"children":[]},{"id":22,"path":[1837,1501,1840,22],"name":"Healthcare Spending","slug":"financing-healthcare","isTopic":1,"weight":101,"children":[]}]},{"id":1809,"path":[1837,1501,1809],"name":"Alzheimer's & Dementia","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1565,"path":[1837,1501,1565],"name":"Child Health","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1564,"path":[1837,1501,1564],"name":"Contraception & Abortion","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":21,"path":[1837,1501,21],"name":"Doctors & Health Workers","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":12,"path":[1837,1501,12],"name":"Health Inequality","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1794,"path":[1837,1501,1794],"name":"Healthcare","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":23,"path":[1837,1501,23],"name":"Hygiene","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1558,"path":[1837,1501,1558],"name":"Measles","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1561,"path":[1837,1501,1561],"name":"Meningitis","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1568,"path":[1837,1501,1568],"name":"Neurodevelopmental Disorders","slug":"neurodevelopmental-disorders","isTopic":0,"weight":100,"children":[]},{"id":27,"path":[1837,1501,27],"name":"Non-communicable Diseases","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1562,"path":[1837,1501,1562],"name":"Respiratory Diseases","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1571,"path":[1837,1501,1571],"name":"Substance Use","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":326,"path":[1837,1501,326],"name":"Teenage Pregnancy","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1504,"path":[1837,1504],"name":"Energy and Environment","slug":null,"isTopic":0,"weight":104,"children":[{"id":1844,"path":[1837,1504,1844],"name":"Climate & Air","slug":null,"isTopic":0,"weight":126,"children":[{"id":93,"path":[1837,1504,1844,93],"name":"Climate Change","slug":"climate-change","isTopic":1,"weight":125,"children":[]},{"id":71,"path":[1837,1504,1844,71],"name":"CO2 & Greenhouse Gas Emissions","slug":"co2-and-greenhouse-gas-emissions","isTopic":1,"weight":124,"children":[]},{"id":106,"path":[1837,1504,1844,106],"name":"Air Pollution","slug":"air-pollution","isTopic":1,"weight":123,"children":[{"id":1819,"path":[1837,1504,1844,106,1819],"name":"Outdoor Air Pollution","slug":"outdoor-air-pollution","isTopic":1,"weight":100,"children":[]},{"id":89,"path":[1837,1504,1844,106,89],"name":"Indoor Air Pollution","slug":"indoor-air-pollution","isTopic":1,"weight":99,"children":[]}]},{"id":105,"path":[1837,1504,1844,105],"name":"Ozone Layer","slug":"ozone-layer","isTopic":1,"weight":122,"children":[]}]},{"id":1845,"path":[1837,1504,1845],"name":"Energy Systems","slug":null,"isTopic":0,"weight":123,"children":[{"id":72,"path":[1837,1504,1845,72],"name":"Energy","slug":"energy","isTopic":1,"weight":121,"children":[{"id":1791,"path":[1837,1504,1845,72,1791],"name":"Access to Energy","slug":"energy-access","isTopic":1,"weight":100,"children":[]},{"id":74,"path":[1837,1504,1845,72,74],"name":"Energy Efficiency","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1812,"path":[1837,1504,1845,72,1812],"name":"Energy Mix","slug":"energy-mix","isTopic":1,"weight":100,"children":[]},{"id":77,"path":[1837,1504,1845,72,77],"name":"Energy Prices","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":78,"path":[1837,1504,1845,72,78],"name":"Energy Trade","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":82,"path":[1837,1504,1845,72,82],"name":"Fossil Fuels","slug":"fossil-fuels","isTopic":1,"weight":100,"children":[]},{"id":80,"path":[1837,1504,1845,72,80],"name":"Nuclear Energy","slug":"nuclear-energy","isTopic":1,"weight":100,"children":[]},{"id":81,"path":[1837,1504,1845,72,81],"name":"Renewable Energy","slug":"renewable-energy","isTopic":1,"weight":100,"children":[]}]},{"id":86,"path":[1837,1504,1845,86],"name":"Metals & Minerals","slug":"metals-minerals","isTopic":1,"weight":119,"children":[]}]},{"id":1846,"path":[1837,1504,1846],"name":"Environment & Ecosystems","slug":null,"isTopic":0,"weight":118,"children":[{"id":91,"path":[1837,1504,1846,91],"name":"Natural Disasters","slug":"natural-disasters","isTopic":1,"weight":118,"children":[]},{"id":99,"path":[1837,1504,1846,99],"name":"Biodiversity","slug":"biodiversity","isTopic":1,"weight":117,"children":[]},{"id":1796,"path":[1837,1504,1846,1796],"name":"Environmental Impacts of Food Production","slug":"environmental-impacts-of-food","isTopic":1,"weight":116,"children":[]},{"id":1795,"path":[1837,1504,1846,1795],"name":"Fish & Overfishing","slug":"fish-and-overfishing","isTopic":1,"weight":115,"children":[]},{"id":291,"path":[1837,1504,1846,291],"name":"Animal Welfare","slug":"animal-welfare","isTopic":1,"weight":114,"children":[]},{"id":90,"path":[1837,1504,1846,90],"name":"Land Use","slug":"land-use","isTopic":1,"weight":114,"children":[{"id":41,"path":[1837,1504,1846,90,41],"name":"Land Use & Yields in Agriculture","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":102,"path":[1837,1504,1846,102],"name":"Water Use & Stress","slug":"water-use-stress","isTopic":1,"weight":113,"children":[]},{"id":88,"path":[1837,1504,1846,88],"name":"Forests & Deforestation","slug":"forests-and-deforestation","isTopic":1,"weight":112,"children":[]},{"id":1836,"path":[1837,1504,1846,1836],"name":"Wildfires","slug":"wildfires","isTopic":1,"weight":100,"children":[]}]},{"id":1847,"path":[1837,1504,1847],"name":"Waste & Pollution","slug":null,"isTopic":0,"weight":111,"children":[{"id":1575,"path":[1837,1504,1847,1575],"name":"Plastic Pollution","slug":"plastic-pollution","isTopic":1,"weight":110,"children":[]},{"id":92,"path":[1837,1504,1847,92],"name":"Oil Spills","slug":"oil-spills","isTopic":1,"weight":109,"children":[]},{"id":1797,"path":[1837,1504,1847,1797],"name":"Lead Pollution","slug":"lead-pollution","isTopic":1,"weight":108,"children":[]},{"id":107,"path":[1837,1504,1847,107],"name":"Waste Management","slug":"waste-management","isTopic":1,"weight":100,"children":[]}]},{"id":1810,"path":[1837,1504,1810],"name":"Clean Water & Sanitation","slug":"clean-water-sanitation","isTopic":1,"weight":100,"children":[{"id":1827,"path":[1837,1504,1810,1827],"name":"Clean Water","slug":"clean-water","isTopic":1,"weight":100,"children":[]},{"id":1576,"path":[1837,1504,1810,1576],"name":"Sanitation","slug":"sanitation","isTopic":1,"weight":100,"children":[]}]},{"id":76,"path":[1837,1504,76],"name":"Electricity","slug":null,"isTopic":0,"weight":100,"children":[{"id":1811,"path":[1837,1504,76,1811],"name":"Electricity Mix","slug":"electricity-mix","isTopic":1,"weight":100,"children":[]}]},{"id":75,"path":[1837,1504,75],"name":"Emission Intensity","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":94,"path":[1837,1504,94],"name":"Environmental Protection & Regulation","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":103,"path":[1837,1504,103],"name":"Water Pollution","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1502,"path":[1837,1502],"name":"Food and Agriculture","slug":null,"isTopic":0,"weight":103,"children":[{"id":1848,"path":[1837,1502,1848],"name":"Food Production","slug":null,"isTopic":0,"weight":123,"children":[{"id":46,"path":[1837,1502,1848,46],"name":"Agricultural Production","slug":"agricultural-production","isTopic":1,"weight":120,"children":[]},{"id":67,"path":[1837,1502,1848,67],"name":"Meat & Dairy Production","slug":"meat-production","isTopic":1,"weight":119,"children":[]},{"id":1795,"path":[1837,1502,1848,1795],"name":"Fish & Overfishing","slug":"fish-and-overfishing","isTopic":1,"weight":118,"children":[]},{"id":1792,"path":[1837,1502,1848,1792],"name":"Crop Yields","slug":"crop-yields","isTopic":1,"weight":117,"children":[]},{"id":291,"path":[1837,1502,1848,291],"name":"Animal Welfare","slug":"animal-welfare","isTopic":1,"weight":116,"children":[]},{"id":1796,"path":[1837,1502,1848,1796],"name":"Environmental Impacts of Food Production","slug":"environmental-impacts-of-food","isTopic":1,"weight":115,"children":[]},{"id":1801,"path":[1837,1502,1848,1801],"name":"Farm Size","slug":"farm-size","isTopic":1,"weight":114,"children":[]},{"id":54,"path":[1837,1502,1848,54],"name":"Food Trade","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1849,"path":[1837,1502,1849],"name":"Agricultural Inputs","slug":null,"isTopic":0,"weight":118,"children":[{"id":90,"path":[1837,1502,1849,90],"name":"Land Use","slug":"land-use","isTopic":1,"weight":113,"children":[{"id":41,"path":[1837,1502,1849,90,41],"name":"Land Use & Yields in Agriculture","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":43,"path":[1837,1502,1849,43],"name":"Fertilizers","slug":"fertilizers","isTopic":1,"weight":112,"children":[]},{"id":1573,"path":[1837,1502,1849,1573],"name":"Pesticides","slug":"pesticides","isTopic":1,"weight":111,"children":[]},{"id":40,"path":[1837,1502,1849,40],"name":"Employment in Agriculture","slug":"employment-in-agriculture","isTopic":1,"weight":110,"children":[]},{"id":51,"path":[1837,1502,1849,51],"name":"Soil","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1850,"path":[1837,1502,1850],"name":"Nutrition","slug":null,"isTopic":0,"weight":110,"children":[{"id":37,"path":[1837,1502,1850,37],"name":"Hunger & Undernourishment","slug":"hunger-and-undernourishment","isTopic":1,"weight":109,"children":[]},{"id":36,"path":[1837,1502,1850,36],"name":"Food Supply","slug":"food-supply","isTopic":1,"weight":108,"children":[]},{"id":44,"path":[1837,1502,1850,44],"name":"Food Prices","slug":"food-prices","isTopic":1,"weight":107,"children":[]},{"id":62,"path":[1837,1502,1850,62],"name":"Obesity","slug":"obesity","isTopic":1,"weight":106,"children":[]},{"id":38,"path":[1837,1502,1850,38],"name":"Famines","slug":"famines","isTopic":1,"weight":105,"children":[]},{"id":58,"path":[1837,1502,1850,58],"name":"Diet Compositions","slug":"diet-compositions","isTopic":1,"weight":104,"children":[]},{"id":1603,"path":[1837,1502,1850,1603],"name":"Micronutrient Deficiency","slug":"micronutrient-deficiency","isTopic":1,"weight":103,"children":[]},{"id":39,"path":[1837,1502,1850,39],"name":"Human Height","slug":"human-height","isTopic":1,"weight":102,"children":[]}]},{"id":59,"path":[1837,1502,59],"name":"Agricultural Regulation & Policy","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":70,"path":[1837,1502,70],"name":"Biofuels","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":61,"path":[1837,1502,61],"name":"Food Waste","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1834,"path":[1837,1834],"name":"Poverty and Economic Development","slug":null,"isTopic":0,"weight":102,"children":[{"id":1851,"path":[1837,1834,1851],"name":"Poverty & Prosperity","slug":null,"isTopic":0,"weight":124,"children":[{"id":1602,"path":[1837,1834,1851,1602],"name":"Poverty","slug":"poverty","isTopic":1,"weight":122,"children":[]},{"id":134,"path":[1837,1834,1851,134],"name":"Economic Growth","slug":"economic-growth","isTopic":1,"weight":121,"children":[]},{"id":135,"path":[1837,1834,1851,135],"name":"Economic Inequality","slug":"economic-inequality","isTopic":1,"weight":120,"children":[]},{"id":229,"path":[1837,1834,1851,229],"name":"Foreign Aid","slug":"foreign-aid","isTopic":1,"weight":119,"children":[]},{"id":147,"path":[1837,1834,1851,147],"name":"Economic Inequality by Gender","slug":"economic-inequality-by-gender","isTopic":1,"weight":118,"children":[]}]},{"id":1852,"path":[1837,1834,1852],"name":"Public Sector","slug":null,"isTopic":0,"weight":119,"children":[{"id":206,"path":[1837,1834,1852,206],"name":"Government Spending","slug":"government-spending","isTopic":1,"weight":117,"children":[]},{"id":1823,"path":[1837,1834,1852,1823],"name":"State Capacity","slug":"state-capacity","isTopic":1,"weight":116,"children":[]},{"id":1582,"path":[1837,1834,1852,1582],"name":"Taxation","slug":"taxation","isTopic":1,"weight":115,"children":[]},{"id":1584,"path":[1837,1834,1852,1584],"name":"Corruption","slug":"corruption","isTopic":1,"weight":114,"children":[]},{"id":22,"path":[1837,1834,1852,22],"name":"Healthcare Spending","slug":"financing-healthcare","isTopic":1,"weight":113,"children":[]},{"id":293,"path":[1837,1834,1852,293],"name":"Education Spending","slug":"financing-education","isTopic":1,"weight":112,"children":[]},{"id":1826,"path":[1837,1834,1852,1826],"name":"Military Personnel & Spending","slug":"military-personnel-spending","isTopic":1,"weight":111,"children":[]}]},{"id":1853,"path":[1837,1834,1853],"name":"Labor","slug":null,"isTopic":0,"weight":110,"children":[{"id":1589,"path":[1837,1834,1853,1589],"name":"Women's Employment","slug":"female-labor-supply","isTopic":1,"weight":110,"children":[]},{"id":186,"path":[1837,1834,1853,186],"name":"Child Labor","slug":"child-labor","isTopic":1,"weight":109,"children":[]},{"id":163,"path":[1837,1834,1853,163],"name":"Working Hours","slug":"working-hours","isTopic":1,"weight":108,"children":[]},{"id":183,"path":[1837,1834,1853,183],"name":"Work Conditions & Safety","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1854,"path":[1837,1834,1854],"name":"Global Connections","slug":null,"isTopic":0,"weight":108,"children":[{"id":217,"path":[1837,1834,1854,217],"name":"Trade & Globalization","slug":"trade-and-globalization","isTopic":1,"weight":107,"children":[]},{"id":233,"path":[1837,1834,1854,233],"name":"Migration","slug":"migration","isTopic":1,"weight":106,"children":[]},{"id":231,"path":[1837,1834,1854,231],"name":"Tourism","slug":"tourism","isTopic":1,"weight":105,"children":[]}]},{"id":1810,"path":[1837,1834,1810],"name":"Clean Water & Sanitation","slug":"clean-water-sanitation","isTopic":1,"weight":104,"children":[{"id":1827,"path":[1837,1834,1810,1827],"name":"Clean Water","slug":"clean-water","isTopic":1,"weight":100,"children":[]},{"id":1576,"path":[1837,1834,1810,1576],"name":"Sanitation","slug":"sanitation","isTopic":1,"weight":100,"children":[]}]},{"id":152,"path":[1837,1834,152],"name":"Banks & Financial Institutions","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":214,"path":[1837,1834,214],"name":"Business Environment","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":158,"path":[1837,1834,158],"name":"Consumer Credit, Debt & Saving","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1593,"path":[1837,1834,1593],"name":"Economic Complexity","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1600,"path":[1837,1834,1600],"name":"Financial Inclusion","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":221,"path":[1837,1834,221],"name":"Foreign Direct Investment","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":201,"path":[1837,1834,201],"name":"Government Revenue","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":167,"path":[1837,1834,167],"name":"Industrialization","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":191,"path":[1837,1834,191],"name":"Informal Sector","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":156,"path":[1837,1834,156],"name":"Interest Rates","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":192,"path":[1837,1834,192],"name":"Labor Force Participation & Employment","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":195,"path":[1837,1834,195],"name":"Labor Market Policies","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1816,"path":[1837,1834,1816],"name":"Labor Supply & Employment","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1594,"path":[1837,1834,1594],"name":"Multidimensional Poverty","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":139,"path":[1837,1834,139],"name":"Prices","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":165,"path":[1837,1834,165],"name":"Productivity","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":199,"path":[1837,1834,199],"name":"Social Spending","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":194,"path":[1837,1834,194],"name":"Unemployment","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":138,"path":[1837,1834,138],"name":"Wages","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1513,"path":[1837,1513],"name":"Education and Knowledge","slug":null,"isTopic":0,"weight":101,"children":[{"id":1856,"path":[1837,1513,1856],"name":"Education","slug":null,"isTopic":0,"weight":100,"children":[{"id":294,"path":[1837,1513,1856,294],"name":"Global Education","slug":"global-education","isTopic":1,"weight":103,"children":[]},{"id":302,"path":[1837,1513,1856,302],"name":"Literacy","slug":"literacy","isTopic":1,"weight":102,"children":[]},{"id":293,"path":[1837,1513,1856,293],"name":"Education Spending","slug":"financing-education","isTopic":1,"weight":101,"children":[]}]},{"id":1857,"path":[1837,1513,1857],"name":"Knowledge","slug":null,"isTopic":0,"weight":100,"children":[{"id":110,"path":[1837,1513,1857,110],"name":"Research & Development","slug":"research-and-development","isTopic":1,"weight":100,"children":[]},{"id":314,"path":[1837,1513,1857,314],"name":"Internet","slug":"internet","isTopic":1,"weight":99,"children":[]},{"id":313,"path":[1837,1513,1857,313],"name":"Books","slug":"books","isTopic":1,"weight":98,"children":[]}]}]},{"id":1505,"path":[1837,1505],"name":"Innovation and Technological Change","slug":null,"isTopic":0,"weight":100,"children":[{"id":111,"path":[1837,1505,111],"name":"Technological Change","slug":"technological-change","isTopic":1,"weight":110,"children":[]},{"id":110,"path":[1837,1505,110],"name":"Research & Development","slug":"research-and-development","isTopic":1,"weight":109,"children":[]},{"id":1800,"path":[1837,1505,1800],"name":"Artificial Intelligence","slug":"artificial-intelligence","isTopic":1,"weight":108,"children":[]},{"id":314,"path":[1837,1505,314],"name":"Internet","slug":"internet","isTopic":1,"weight":107,"children":[]},{"id":114,"path":[1837,1505,114],"name":"Space Exploration & Satellites","slug":"space-exploration-satellites","isTopic":1,"weight":106,"children":[]},{"id":1578,"path":[1837,1505,1578],"name":"Transport","slug":"transport","isTopic":1,"weight":105,"children":[]},{"id":321,"path":[1837,1505,321],"name":"Communication Technology","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":123,"path":[1837,1505,123],"name":"Infrastructure Projects","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1579,"path":[1837,1505,1579],"name":"Medical & Biotechnologies","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":115,"path":[1837,1505,115],"name":"Patents","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":315,"path":[1837,1505,315],"name":"Social Media","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1835,"path":[1837,1835],"name":"Living Conditions, Community and Wellbeing","slug":null,"isTopic":0,"weight":99,"children":[{"id":1858,"path":[1837,1835,1858],"name":"Housing & Infrastructure","slug":null,"isTopic":0,"weight":117,"children":[{"id":180,"path":[1837,1835,1858,180],"name":"Homelessness","slug":"homelessness","isTopic":1,"weight":115,"children":[]},{"id":1791,"path":[1837,1835,1858,1791],"name":"Access to Energy","slug":"energy-access","isTopic":1,"weight":114,"children":[]},{"id":89,"path":[1837,1835,1858,89],"name":"Indoor Air Pollution","slug":"indoor-air-pollution","isTopic":1,"weight":113,"children":[]},{"id":1810,"path":[1837,1835,1858,1810],"name":"Clean Water & Sanitation","slug":"clean-water-sanitation","isTopic":1,"weight":112,"children":[{"id":1827,"path":[1837,1835,1858,1810,1827],"name":"Clean Water","slug":"clean-water","isTopic":1,"weight":100,"children":[]},{"id":1576,"path":[1837,1835,1858,1810,1576],"name":"Sanitation","slug":"sanitation","isTopic":1,"weight":100,"children":[]}]},{"id":161,"path":[1837,1835,1858,161],"name":"Light at Night","slug":"light-at-night","isTopic":1,"weight":111,"children":[]},{"id":177,"path":[1837,1835,1858,177],"name":"Housing","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1824,"path":[1837,1835,1824],"name":"Time Use","slug":"time-use","isTopic":1,"weight":110,"children":[{"id":163,"path":[1837,1835,1824,163],"name":"Working Hours","slug":"working-hours","isTopic":1,"weight":109,"children":[]}]},{"id":1859,"path":[1837,1835,1859],"name":"Relationships","slug":null,"isTopic":0,"weight":109,"children":[{"id":325,"path":[1837,1835,1859,325],"name":"Marriages & Divorces","slug":"marriages-and-divorces","isTopic":1,"weight":108,"children":[]},{"id":1817,"path":[1837,1835,1859,1817],"name":"Loneliness & Social Connections","slug":"social-connections-and-loneliness","isTopic":1,"weight":107,"children":[]},{"id":324,"path":[1837,1835,1859,324],"name":"Trust","slug":"trust","isTopic":1,"weight":106,"children":[]}]},{"id":1860,"path":[1837,1835,1860],"name":"Happiness & Wellbeing","slug":null,"isTopic":0,"weight":107,"children":[{"id":159,"path":[1837,1835,1860,159],"name":"Happiness & Life Satisfaction","slug":"happiness-and-life-satisfaction","isTopic":1,"weight":105,"children":[]},{"id":160,"path":[1837,1835,1860,160],"name":"Human Development Index (HDI)","slug":"human-development-index","isTopic":1,"weight":104,"children":[]},{"id":171,"path":[1837,1835,1860,171],"name":"Quality of Life","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1551,"path":[1837,1835,1551],"name":"Values","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1512,"path":[1837,1512],"name":"Human Rights and Democracy","slug":null,"isTopic":0,"weight":98,"children":[{"id":285,"path":[1837,1512,285],"name":"Human Rights","slug":"human-rights","isTopic":1,"weight":110,"children":[]},{"id":255,"path":[1837,1512,255],"name":"Democracy","slug":"democracy","isTopic":1,"weight":109,"children":[]},{"id":1823,"path":[1837,1512,1823],"name":"State Capacity","slug":"state-capacity","isTopic":1,"weight":108,"children":[]},{"id":282,"path":[1837,1512,282],"name":"Women's Rights","slug":"women-rights","isTopic":1,"weight":107,"children":[]},{"id":290,"path":[1837,1512,290],"name":"LGBT+ Rights","slug":"lgbt-rights","isTopic":1,"weight":106,"children":[]},{"id":1584,"path":[1837,1512,1584],"name":"Corruption","slug":"corruption","isTopic":1,"weight":105,"children":[]},{"id":147,"path":[1837,1512,147],"name":"Economic Inequality by Gender","slug":"economic-inequality-by-gender","isTopic":1,"weight":104,"children":[]},{"id":186,"path":[1837,1512,186],"name":"Child Labor","slug":"child-labor","isTopic":1,"weight":103,"children":[]},{"id":289,"path":[1837,1512,289],"name":"Violence Against Children & Children's Rights","slug":"violence-against-rights-for-children","isTopic":1,"weight":102,"children":[]},{"id":256,"path":[1837,1512,256],"name":"Accountability & Transparency","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":272,"path":[1837,1512,272],"name":"Colonialism","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":284,"path":[1837,1512,284],"name":"Crime","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":237,"path":[1837,1512,237],"name":"Human Trafficking","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":227,"path":[1837,1512,227],"name":"Intergovernmental Organizations & Diplomacy","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":238,"path":[1837,1512,238],"name":"Political Asylum & Refugees","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":258,"path":[1837,1512,258],"name":"Political Regimes","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":276,"path":[1837,1512,276],"name":"Press Freedom","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":273,"path":[1837,1512,273],"name":"Prisons","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":215,"path":[1837,1512,215],"name":"Property Rights","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":1806,"path":[1837,1512,1806],"name":"Rights of Marginalized Ethnic Groups","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":264,"path":[1837,1512,264],"name":"Voter Turnout","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":269,"path":[1837,1512,269],"name":"Women in Politics","slug":null,"isTopic":0,"weight":100,"children":[]}]},{"id":1510,"path":[1837,1510],"name":"Violence and War","slug":null,"isTopic":0,"weight":97,"children":[{"id":246,"path":[1837,1510,246],"name":"War & Peace","slug":"war-and-peace","isTopic":1,"weight":108,"children":[]},{"id":242,"path":[1837,1510,242],"name":"Nuclear Weapons","slug":"nuclear-weapons","isTopic":1,"weight":107,"children":[]},{"id":279,"path":[1837,1510,279],"name":"Homicides","slug":"homicides","isTopic":1,"weight":106,"children":[]},{"id":244,"path":[1837,1510,244],"name":"Terrorism","slug":"terrorism","isTopic":1,"weight":105,"children":[]},{"id":1823,"path":[1837,1510,1823],"name":"State Capacity","slug":"state-capacity","isTopic":1,"weight":104,"children":[]},{"id":1826,"path":[1837,1510,1826],"name":"Military Personnel & Spending","slug":"military-personnel-spending","isTopic":1,"weight":103,"children":[]},{"id":289,"path":[1837,1510,289],"name":"Violence Against Children & Children's Rights","slug":"violence-against-rights-for-children","isTopic":1,"weight":102,"children":[]},{"id":1798,"path":[1837,1510,1798],"name":"Biological & Chemical Weapons","slug":"biological-and-chemical-weapons","isTopic":0,"weight":100,"children":[]},{"id":239,"path":[1837,1510,239],"name":"Civil Wars","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":240,"path":[1837,1510,240],"name":"Genocides","slug":null,"isTopic":0,"weight":100,"children":[]},{"id":243,"path":[1837,1510,243],"name":"Peacekeeping","slug":null,"isTopic":0,"weight":100,"children":[]}]}]}
+  </script>
+  <script>
+   function setJSEnabled(enabled) {
+    var elem = window.document.documentElement;
+    if (enabled) {
+        elem.classList.remove("js-disabled");
+        elem.classList.add("js-enabled");
+    } else {
+        elem.classList.remove("js-enabled");
+        elem.classList.add("js-disabled");
+    }
+}
+if ("noModule" in HTMLScriptElement.prototype) {
+    setJSEnabled(true);
+} else {
+    setJSEnabled(false);
+}
+window.onerror = function (err, url) {
+    var isOurSyntaxError = typeof err === "string" && err.indexOf("SyntaxError") > -1 && url.indexOf("https://ourworldindata.org") > -1;
+    if (isOurSyntaxError) {
+        console.error("Caught global syntax error", err, url);
+        setJSEnabled(false);
+    }
+}
+  </script>
+  <script>
+   /* Prepare Google Tag Manager */
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag("consent","default",{"ad_storage":"denied","analytics_storage":"denied","wait_for_update":1000});
+  </script>
+  <script>
+   /* Load Google Tag Manager */
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N2D4V8S');
+  </script>
+ </head>
+ <body class="DataCatalogPage">
+  <header class="site-header">
+   <div class="site-navigation-root">
+    <div class="site-navigation">
+     <div class="wrapper">
+      <div class="site-navigation-bar">
+       <div class="SiteNavigationToggle SiteNavigationToggle--mobile-menu hide-sm-up">
+        <button aria-label="Toggle menu" class="SiteNavigationToggle__button">
+         <svg aria-hidden="true" class="svg-inline--fa fa-bars" data-icon="bars" data-prefix="fas" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" fill="currentColor">
+          </path>
+         </svg>
+        </button>
+       </div>
+       <div class="site-logos">
+        <div class="logo-owid">
+         <a href="/">
+          Our World
+          <br/>
+          in Data
+         </a>
+        </div>
+        <div class="logos-wrapper">
+         <a href="https://www.oxfordmartin.ox.ac.uk/global-development">
+          <img alt="Oxford Martin School logo" height="103" loading="lazy" src="images/oms-logo.svg" width="96"/>
+         </a>
+         <a href="https://www.ox.ac.uk/">
+          <img alt="University of Oxford logo" height="103" loading="lazy" src="images/oxford-logo.svg" width="96"/>
+         </a>
+         <a href="https://global-change-data-lab.org/">
+          <img alt="Global Change Data Lab logo" height="103" loading="lazy" src="images/gcdl-logo.svg" width="80"/>
+         </a>
+        </div>
+       </div>
+       <nav class="site-primary-links hide-sm-only">
+        <ul>
+         <li>
+          <div class="SiteNavigationToggle topics">
+           <button aria-label="Toggle topics menu" class="SiteNavigationToggle__button">
+            <svg aria-hidden="true" class="svg-inline--fa fa-list-ul" data-icon="list-ul" data-prefix="fas" focusable="false" role="img" style="margin-right:8px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+             <path d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-288 0zM64 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" fill="currentColor">
+             </path>
+            </svg>
+            Browse by topic
+           </button>
+          </div>
+         </li>
+         <li>
+          <a href="./data.html">
+           Data
+          </a>
+         </li>
+         <li>
+          <a href="/data-insights">
+           Insights
+          </a>
+         </li>
+         <li class="with-relative-dropdown">
+          <div class="SiteNavigationToggle">
+           <button aria-label="Toggle resources menu" class="SiteNavigationToggle__button">
+            Resources
+            <svg aria-hidden="true" class="svg-inline--fa fa-caret-down SiteNavigationToggle__caret" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+             <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor">
+             </path>
+            </svg>
+           </button>
+          </div>
+         </li>
+         <li class="with-relative-dropdown">
+          <div class="SiteNavigationToggle">
+           <button aria-label="Toggle about menu" class="SiteNavigationToggle__button">
+            About
+            <svg aria-hidden="true" class="svg-inline--fa fa-caret-down SiteNavigationToggle__caret" data-icon="caret-down" data-prefix="fas" focusable="false" role="img" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
+             <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" fill="currentColor">
+             </path>
+            </svg>
+           </button>
+          </div>
+         </li>
+        </ul>
+       </nav>
+       <div class="site-search-cta">
+        <div class="SiteSearchNavigation">
+         <div id="autocomplete">
+         </div>
+        </div>
+        <div class="SiteNavigationToggle newsletter-subscription">
+         <button aria-label="Toggle subscribe menu" class="SiteNavigationToggle__button">
+          <span class="hide-lg-down">
+           Subscribe
+          </span>
+          <svg aria-hidden="true" class="svg-inline--fa fa-envelope-open-text hide-lg-up" data-icon="envelope-open-text" data-prefix="fas" focusable="false" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+           <path d="M215.4 96L144 96l-36.2 0L96 96l0 8.8L96 144l0 40.4 0 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3 48 96c0-26.5 21.5-48 48-48l76.6 0 49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48 416 48c26.5 0 48 21.5 48 48l0 44.3 22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4l0-89 0-40.4 0-39.2 0-8.8-11.8 0L368 96l-71.4 0-81.3 0zM0 448L0 242.1 217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1 512 448s0 0 0 0c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0zM176 160l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" fill="currentColor">
+           </path>
+          </svg>
+         </button>
+        </div>
+        <a class="donate" data-track-note="header_navigation" href="/donate">
+         Donate
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </header>
+  <main class="grid grid-cols-12-full-width" id="data-catalog-page-root">
+   <div class="data-catalog-header span-cols-14 grid grid-cols-12-full-width">
+    <header class="data-catalog-heading span-cols-12 col-start-2">
+     <h1 class="h1-semibold">
+      Data Catalog
+     </h1>
+     <p class="body-2-regular">
+      Search for a specific chart, or browse all our charts by area and topic.
+     </p>
+    </header>
+    <div class="data-catalog-search-controls-container span-cols-12 col-start-2">
+     <div class="data-catalog-pseudo-input">
+      <button aria-label="Submit search" class="data-catalog-pseudo-input__submit-button">
+       <svg aria-hidden="true" class="svg-inline--fa fa-magnifying-glass" data-icon="magnifying-glass" data-prefix="fas" focusable="false" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" fill="currentColor">
+        </path>
+       </svg>
+      </button>
+      <div class="data-catalog-selected-countries-container">
+      </div>
+      <div class="data-catalog-search-box-container">
+       <form class="data-catalog-search-form">
+        <input autofocus="" class="data-catalog-search-input body-3-regular" enterkeyhint="search" placeholder="" type="text" value=""/>
+        <button aria-label="Clear search" class="data-catalog-clear-input-button" disabled="" type="button">
+         <svg aria-hidden="true" class="svg-inline--fa fa-circle-xmark" data-icon="circle-xmark" data-prefix="fas" focusable="false" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" fill="currentColor">
+          </path>
+         </svg>
+        </button>
+       </form>
+      </div>
+     </div>
+     <div class="data-catalog-country-selector">
+      <button aria-expanded="false" aria-label="Open country selector" class="data-catalog-country-selector-button body-3-medium">
+       <svg aria-hidden="true" class="svg-inline--fa fa-location-dot" data-icon="location-dot" data-prefix="fas" focusable="false" role="img" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
+        <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" fill="currentColor">
+        </path>
+       </svg>
+       <span class="data-catalog-country-selector-button__text">
+        Country selector
+       </span>
+      </button>
+     </div>
+    </div>
+   </div>
+   <ul class="data-catalog-applied-filters-list span-cols-12 col-start-2">
+   </ul>
+   <h3 class="data-catalog-ribbons__refinements-heading h5-black-caps span-cols-12 col-start-2">
+    All areas of research
+   </h3>
+   <div class="data-catalog-refinement-list span-cols-12 col-start-2">
+   </div>
+   <div class="span-cols-14 grid grid-cols-12-full-width data-catalog-ribbons">
+   </div>
+  </main>
+  <section class="donate-footer grid grid-cols-12-full-width">
+   <div class="donate-footer-inner span-cols-12 col-start-2">
+    <div>
+     <h4>
+      Our World in Data is free and accessible for everyone.
+     </h4>
+     <p>
+      Help us do this work by making a donation.
+     </p>
+    </div>
+    <a class="owid-btn owid-btn--solid-vermillion owid-btn--icon-right body-2-semibold donate-button" data-track-note="donate_footer" href="/donate">
+     Donate now
+    </a>
+   </div>
+  </section>
+  <footer class="site-footer grid grid-cols-12-full-width">
+   <div class="footer-left span-cols-5 span-sm-cols-12 col-start-2 col-sm-start-2">
+    <p class="body-3-medium">
+     Our World in Data is a project of
+     <a href="https://global-change-data-lab.org/">
+      Global Change Data Lab
+     </a>
+     , a nonprofit based in the UK (Reg. Charity No. 1186433). Our charts, articles, and data are licensed under
+     <a href="https://creativecommons.org/licenses/by/4.0/">
+      CC BY
+     </a>
+     , unless stated otherwise. Tools and software we develop are open source under the
+     <a href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md">
+      MIT license
+     </a>
+     . Third-party materials, including some charts and data, are subject to third-party licenses. See our
+     <a href="/faqs">
+      FAQs
+     </a>
+     for more details.
+    </p>
+    <div class="affiliates">
+     <div class="oxford-logos">
+      <a href="https://www.oxfordmartin.ox.ac.uk/global-development">
+       <img alt="Oxford Martin School logo" height="103" loading="lazy" src="images/oms-logo.svg" width="96"/>
+      </a>
+      <a href="https://www.ox.ac.uk/">
+       <img alt="University of Oxford logo" height="103" loading="lazy" src="images/oxford-logo.svg" width="96"/>
+      </a>
+      <a href="https://global-change-data-lab.org/">
+       <img alt="Global Change Data Lab logo" height="103" loading="lazy" src="images/gcdl-logo.svg" width="80"/>
+      </a>
+     </div>
+     <a href="https://www.ycombinator.com">
+      <img alt="Y Combinator logo" height="30" loading="lazy" src="images/yc-logo.svg" width="123"/>
+     </a>
+    </div>
+   </div>
+   <div class="footer-right span-cols-6 span-sm-cols-12 col-start-8 col-sm-start-2 grid grid-cols-3 grid-sm-cols-2">
+    <div class="footer-link-column">
+     <h5 class="h5-black-caps">
+      Explore
+     </h5>
+     <ul class="footer-link-list">
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/#all-topics">
+        Topics
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="./data.html">
+        Data
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/data-insights">
+        Insights
+       </a>
+      </li>
+     </ul>
+     <h5 class="h5-black-caps">
+      Resources
+     </h5>
+     <ul class="footer-link-list">
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/latest">
+        Latest Articles
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/sdgs">
+        SDG Tracker
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/teaching">
+        Teaching Materials
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="footer-link-column">
+     <h5 class="h5-black-caps">
+      About
+     </h5>
+     <ul class="footer-link-list">
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/about">
+        About Us
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/organization">
+        Organization
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/funding">
+        Funding
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/team">
+        Team
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/jobs">
+        Jobs
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/faqs">
+        FAQs
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="footer-link-column">
+     <h5 class="h5-black-caps">
+      <svg aria-hidden="true" class="svg-inline--fa fa-rss" data-icon="rss" data-prefix="fas" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z" fill="currentColor">
+       </path>
+      </svg>
+      RSS Feeds
+     </h5>
+     <ul class="footer-link-list">
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/atom.xml">
+        Research &amp; Writing
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/atom-data-insights.xml">
+        Daily Data Insights
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="footer-base span-cols-12 col-start-2 grid grid-cols-2 grid-sm-cols-1">
+    <div class="footer-base__socials">
+     <h5 class="h5-black-caps">
+      Follow us
+     </h5>
+     <a data-track-note="footer_social" href="https://x.com/ourworldindata">
+      <svg aria-hidden="true" class="svg-inline--fa fa-x-twitter" data-icon="x-twitter" data-prefix="fab" focusable="false" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+     <a data-track-note="footer_social" href="https://www.instagram.com/ourworldindata/">
+      <svg aria-hidden="true" class="svg-inline--fa fa-instagram" data-icon="instagram" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+     <a data-track-note="footer_social" href="https://www.threads.net/@ourworldindata">
+      <svg aria-hidden="true" class="svg-inline--fa fa-threads" data-icon="threads" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+     <a data-track-note="footer_social" href="https://facebook.com/ourworldindata">
+      <svg aria-hidden="true" class="svg-inline--fa fa-square-facebook" data-icon="square-facebook" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+     <a data-track-note="footer_social" href="https://www.linkedin.com/company/ourworldindata">
+      <svg aria-hidden="true" class="svg-inline--fa fa-linkedin" data-icon="linkedin" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+     <a data-track-note="footer_social" href="https://bsky.app/profile/ourworldindata.org">
+      <svg aria-hidden="true" class="svg-inline--fa fa-square-bluesky" data-icon="square-bluesky" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM224 247.4c14.5-30 54-85.8 90.7-113.3c26.5-19.9 69.3-35.2 69.3 13.7c0 9.8-5.6 82.1-8.9 93.8c-11.4 40.8-53 51.2-90 44.9c64.7 11 81.2 47.5 45.6 84c-67.5 69.3-97-17.4-104.6-39.6c0 0 0 0 0 0l-.3-.9c-.9-2.6-1.4-4.1-1.8-4.1s-.9 1.5-1.8 4.1c-.1 .3-.2 .6-.3 .9c0 0 0 0 0 0c-7.6 22.2-37.1 108.8-104.6 39.6c-35.5-36.5-19.1-73 45.6-84c-37 6.3-78.6-4.1-90-44.9c-3.3-11.7-8.9-84-8.9-93.8c0-48.9 42.9-33.5 69.3-13.7c36.7 27.5 76.2 83.4 90.7 113.3z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+     <a data-track-note="footer_social" href="https://github.com/owid">
+      <svg aria-hidden="true" class="svg-inline--fa fa-square-github" data-icon="square-github" data-prefix="fab" focusable="false" role="img" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+       <path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM265.8 407.7c0-1.8 0-6 .1-11.6c.1-11.4 .1-28.8 .1-43.7c0-15.6-5.2-25.5-11.3-30.7c37-4.1 76-9.2 76-73.1c0-18.2-6.5-27.3-17.1-39c1.7-4.3 7.4-22-1.7-45c-13.9-4.3-45.7 17.9-45.7 17.9c-13.2-3.7-27.5-5.6-41.6-5.6s-28.4 1.9-41.6 5.6c0 0-31.8-22.2-45.7-17.9c-9.1 22.9-3.5 40.6-1.7 45c-10.6 11.7-15.6 20.8-15.6 39c0 63.6 37.3 69 74.3 73.1c-4.8 4.3-9.1 11.7-10.6 22.3c-9.5 4.3-33.8 11.7-48.3-13.9c-9.1-15.8-25.5-17.1-25.5-17.1c-16.2-.2-1.1 10.2-1.1 10.2c10.8 5 18.4 24.2 18.4 24.2c9.7 29.7 56.1 19.7 56.1 19.7c0 9 .1 21.7 .1 30.6c0 4.8 .1 8.6 .1 10c0 4.3-3 9.5-11.5 8C106 393.6 59.8 330.8 59.8 257.4c0-91.8 70.2-161.5 162-161.5s166.2 69.7 166.2 161.5c.1 73.4-44.7 136.3-110.7 158.3c-8.4 1.5-11.5-3.7-11.5-8zm-90.5-54.8c-.2-1.5 1.1-2.8 3-3.2c1.9-.2 3.7 .6 3.9 1.9c.3 1.3-1 2.6-3 3c-1.9 .4-3.7-.4-3.9-1.7zm-9.1 3.2c-2.2 .2-3.7-.9-3.7-2.4c0-1.3 1.5-2.4 3.5-2.4c1.9-.2 3.7 .9 3.7 2.4c0 1.3-1.5 2.4-3.5 2.4zm-14.3-2.2c-1.9-.4-3.2-1.9-2.8-3.2s2.4-1.9 4.1-1.5c2 .6 3.3 2.1 2.8 3.4c-.4 1.3-2.4 1.9-4.1 1.3zm-12.5-7.3c-1.5-1.3-1.9-3.2-.9-4.1c.9-1.1 2.8-.9 4.3 .6c1.3 1.3 1.8 3.3 .9 4.1c-.9 1.1-2.8 .9-4.3-.6zm-8.5-10c-1.1-1.5-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3c1.1 1.5 1.1 3.3 0 4.1c-.9 .6-2.6 0-3.7-1.5zm-6.3-8.8c-1.1-1.3-1.3-2.8-.4-3.5c.9-.9 2.4-.4 3.5 .6c1.1 1.3 1.3 2.8 .4 3.5c-.9 .9-2.4 .4-3.5-.6zm-6-6.4c-1.3-.6-1.9-1.7-1.5-2.6c.4-.6 1.5-.9 2.8-.4c1.3 .7 1.9 1.8 1.5 2.6c-.4 .9-1.7 1.1-2.8 .4z" fill="currentColor">
+       </path>
+      </svg>
+     </a>
+    </div>
+    <div class="footer-base__legal">
+     <ul class="footer-link-list">
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/privacy-policy">
+        Privacy policy
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="/organization#legal-disclaimer">
+        Legal disclaimer
+       </a>
+      </li>
+      <li>
+       <a class="body-3-medium" data-track-note="footer_navigation" href="https://github.com/owid/owid-grapher/blob/master/LICENSE.md">
+        Grapher license
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="site-tools">
+   </div>
+   <script src="js/polyfill.min.js">
+   </script>
+   <script data-attach-owid-error-handler="true" src="owid.mjs" type="module">
+   </script>
+   <script>
+    document.querySelectorAll("script[data-attach-owid-error-handler]").forEach(script => {
+    script.onerror = () => {
+        console.log(new Error("Failed to load script: ", script.src));
+        document.documentElement.classList.add("js-disabled");
+        document.documentElement.classList.remove("js-enabled");
+    }
+})
+   </script>
+   <script type="module">
+    window.runSiteFooterScripts({"context":"data-catalog-page"});
+   </script>
+  </footer>
+  <!-- Cloudflare Pages Analytics -->
+  <script "4d1cbc1f1882457ca174f8344c4be6bc"}"="" data-cf-beacon="{" defer="" src="js/beacon.min.js" token":="">
+  </script>
+  <!-- Cloudflare Pages Analytics -->
+ </body>
+</html>
